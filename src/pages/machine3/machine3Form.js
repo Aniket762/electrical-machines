@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './machines3Form.css';
 
 function App() {
   const [num1, setnum1] = useState('');
@@ -11,22 +12,55 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='main-heading'>Feed the form to get speed 🔥</h1>
       <div className="number-inputs">
         <input
           type="number"
           value={num1}
           onChange={(e) => setnum1(+e.target.value)}
           placeholder="0"
+          className='boxes'
         />
         <input
           type="number"
           value={num2}
           onChange={(e) => setnum2(+e.target.value)}
           placeholder="0"
+          className='boxes'
+        />
+        <input
+          type="number"
+          value={num2}
+          onChange={(e) => setnum2(+e.target.value)}
+          placeholder="0"
+          className='boxes'
         />
       </div>
 
-      <button onClick={formulate}>Get Speed</button>
+      <div className="number-inputs">
+        <input
+          type="number"
+          value={num1}
+          onChange={(e) => setnum1(+e.target.value)}
+          placeholder="0"
+          className='boxes'
+        />
+        <input
+          type="number"
+          value={num2}
+          onChange={(e) => setnum2(+e.target.value)}
+          placeholder="0"
+          className='boxes'
+        />
+        <input
+          type="number"
+          value={num2}
+          onChange={(e) => setnum2(+e.target.value)}
+          placeholder="0"
+          className='boxes'
+        />
+      </div>
+      <button onClick={formulate} className='button'>Get Speed</button>
 
       <h2>{total}</h2>
 
