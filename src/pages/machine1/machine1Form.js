@@ -11,7 +11,7 @@ function App() {
   const [speed, setSpeed] = useState('');
 
   function formulate() {
-    setSpeed();
+    setSpeed(f1*(1-s1)/p1);
   }
 
   return (

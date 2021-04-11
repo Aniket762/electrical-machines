@@ -15,12 +15,13 @@
 }
 
 .main-heading {
-  margin-left: 20%;
+  margin-left: 15%;
   margin-bottom:10px;
 }
 
-p{
+p,h2{
   margin-left: 70px;
+  margin-bottom:5px;
 }
 
 .button {
