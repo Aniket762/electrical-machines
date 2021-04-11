@@ -4,9 +4,9 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Analyze the speed of your induction motor 🚀',
+  headline: 'Analyze the speed of your induction motor',
   description:
-    'Get speed of two slip ring induction motors for different type of cascading operation',
+    'Get speed of two slip ring induction motors for different types of cascading operation.',
   buttonLabel: 'Get Started',
   imgStart: '',
   img: require('../../images/home-main.svg'),
@@ -23,7 +23,7 @@ export const homeObjTwo = {
   headline: 'Case A',
   description:
     "Both machines are placed in same phase sequence and there is no air gap flux.",
-  buttonLabel: 'Get Speed',
+  buttonLabel: 'Find Speed',
   imgStart: '',
   img: require('../../images/machine-01.svg'),
   alt: 'Vault',
