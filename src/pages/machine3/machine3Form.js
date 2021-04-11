@@ -17,12 +17,14 @@ function App() {
   return (
     <div className="App">
       <h1 className='main-heading'>Provide specifications of machines to find speed.</h1>
+      <div className="specs">
       <p>Frequency of supply given to machine 1 = f1</p>
       <p>Frequency of supply given to machine 2 = f2</p>
       <p>Slip of operation of machine 1 = s1</p>
       <p>Slip of operation of machine 2 = s2</p>
       <p>Number of poles in machine 1 = p1</p>
       <p>Number of poles in machine 2 = p2</p>
+      </div>
 
       <div className="number-inputs">
         <input

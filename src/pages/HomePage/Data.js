@@ -41,7 +41,7 @@ export const homeObjFour = {
   headline: 'Case B',
   description:
     'Both machines are placed in same phase sequence and there is air gap flux.',
-  buttonLabel: 'Get Speed',
+  buttonLabel: 'Find Speed',
   imgStart: 'start',
   img: require('../../images/machine-2.svg'),
   alt: 'Vault',
@@ -58,7 +58,7 @@ export const homeObjThree = {
   headline: 'Case C',
   description:
     "Both machines are placed in opposite phase sequence and there is air gap flux.",
-  buttonLabel: 'Get Speed',
+  buttonLabel: 'Find Speed',
   imgStart: '',
   img: require('../../images/machine-3.svg'),
   alt: 'Vault',
