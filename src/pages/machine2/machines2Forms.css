@@ -1,7 +1,8 @@
 .number-inputs {
-  margin-left: 100px;
+  margin-left: 50px;
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
 }
 
 .boxes {
@@ -15,6 +16,11 @@
 
 .main-heading {
   margin-left: 20%;
+  margin-bottom:10px;
+}
+
+p{
+  margin-left: 70px;
 }
 
 .button {
@@ -29,10 +35,10 @@
   cursor: pointer;
 }
 
-  &:hover {
+.button:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    background-color: #10c755;
+    background-color: #0ca045;
   
   @media screen and (max-width: 960px) {
     width: 100%;
