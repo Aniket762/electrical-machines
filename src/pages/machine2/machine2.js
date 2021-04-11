@@ -22,8 +22,8 @@ function machine() {
           <InfoRow imgStart={true}>
             <InfoColumn>
               <TextWrapper>
-                <Heading lightText={false}>Lorem ipsum dolor sit amet consectetur</Heading>
-                <Subtitle lightTextDesc={false}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi</Subtitle>
+                <Heading lightText={false}>Case B</Heading>
+                <Subtitle lightTextDesc={false}>Both machines are placed in same phase sequence and there is air gap flux.</Subtitle>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
