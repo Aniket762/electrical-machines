@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='main-heading'>Feed the form to get speed 🔥</h1>
+      <h1 className='main-heading'>Provide specifications of machines to find speed.</h1>
       <div className="number-inputs">
         <input
           type="number"

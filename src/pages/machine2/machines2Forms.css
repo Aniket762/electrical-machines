@@ -14,7 +14,7 @@
 }
 
 .main-heading {
-  margin-left: 37%;
+  margin-left: 20%;
 }
 
 .button {
@@ -27,12 +27,13 @@
   outline: none;
   border: none;
   cursor: pointer;
+}
 
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     background-color: #10c755;
-  }
+  
   @media screen and (max-width: 960px) {
     width: 100%;
   }
