@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './machines3Form.css';
+import '../machine1/machine1Form.css';
 
 function App() {
   const [f1, setf1] = useState('');
