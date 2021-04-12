@@ -39,23 +39,6 @@ function App() {
           placeholder="p1"
           className='boxes'
         />
-      </div>
-
-      <div className="number-inputs">
-        <input
-          type="number"
-          value={f2}
-          onChange={(e) => setf2(+e.target.value)}
-          placeholder="f2"
-          className='boxes'
-        />
-        <input
-          type="number"
-          value={s2}
-          onChange={(e) => sets2(+e.target.value)}
-          placeholder="s2"
-          className='boxes'
-        />
         <input
           type="number"
           value={p2}
