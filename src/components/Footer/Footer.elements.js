@@ -31,8 +31,7 @@ export const SocialMediaWrap = styled.div`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-left: 50%;
-
+  margin: 0 auto;
 `;
 
 

@@ -3,9 +3,7 @@ import '../machine1/machine1Form.css';
 
 function App() {
   const [f1, setf1] = useState('');
-  const [f2, setf2] = useState('');
   const [s1, sets1] = useState('');
-  const [s2, sets2] = useState('');
   const [p1, setp1] = useState('');
   const [p2, setp2] = useState('');
   const [speed, setSpeed] = useState('');
@@ -16,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='main-heading'>Provide specifications of machines to find speed.</h1>
+      <h1 className='main-heading'>Provide specifications of machines to find speed (in radians).</h1>
 
       <div className="number-inputs">
         <input
@@ -38,6 +36,13 @@ function App() {
           value={p1}
           onChange={(e) => setp1(+e.target.value)}
           placeholder="p1"
+          className='boxes'
+        />
+                <input
+          type="number"
+          value={p2}
+          onChange={(e) => setp2(+e.target.value)}
+          placeholder="p2"
           className='boxes'
         />
       </div>

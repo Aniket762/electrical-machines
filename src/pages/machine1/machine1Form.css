@@ -1,5 +1,4 @@
 .number-inputs {
-  margin-left: 5%;
   display: inherit;
   margin: 0 auto;
   width: 80%;
@@ -50,15 +49,11 @@
 
 @media screen and (max-width: 768px) {
   .number-inputs {
-    margin-left:0;
-    display: flex;
-    flex-direction: column;
+    display: inherit;
+    margin: 0 auto;
   }
   .boxes {
     width: auto;
     margin:1%;
-  }
-  .button {
-    margin-left: 27%;
   }
 }
