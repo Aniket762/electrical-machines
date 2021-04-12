@@ -1,8 +1,8 @@
 .number-inputs {
-  margin-left:5%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
+  margin-left: 5%;
+  display: inherit;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .boxes {
