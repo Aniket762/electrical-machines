@@ -6,7 +6,6 @@ import {
     InfoRow,
     InfoColumn,
     TextWrapper,
-    TopLine,
     Heading,
     Subtitle,
     ImgWrapper,
