@@ -1,5 +1,5 @@
 .number-inputs {
-  margin-left: 50px;
+  margin-left:5%;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
@@ -15,7 +15,6 @@
 }
 
 .main-heading {
-  margin-left: 15%;
   margin-bottom:10px;
 }
 
@@ -24,8 +23,12 @@
   margin-bottom:5px;
 }
 
+.App{
+  text-align:center;
+}
+
 .button {
-  margin: 1% 1% 1% 40%;
+  margin: 1%;
   border-radius: 4px;
   background-color: #10c755;
   padding: 12px 64px;
@@ -48,15 +51,13 @@
 
 @media screen and (max-width: 768px) {
   .number-inputs {
-    margin-left: 50px;
+    margin-left:0;
     display: flex;
     flex-direction: column;
   }
   .boxes {
-    width: 400px;
-  }
-  .main-heading {
-    margin-left: 10%;
+    width: auto;
+    margin:1%;
   }
   .button {
     margin-left: 27%;
