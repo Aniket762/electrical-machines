@@ -14,13 +14,13 @@
 </ul>
 <p>We get speed (in radians) as output.</p>
 
-#### Case A : Both machines are placed in same phase sequence and there is no air gap flux.####
+#### Case A : Both machines are placed in same phase sequence and there is no air gap flux.
 <p>Speed = f1(1-s1)/p1</p>
 
-#### Case B : Both machines are placed in same phase sequence and there is air gap flux.####
+#### Case B : Both machines are placed in same phase sequence and there is air gap flux.
 <p>Speed = f1/(p1+p2)</p>
 
-#### Case C : Both machines are placed in opposite phase sequence and there is air gap flux.####
+#### Case C : Both machines are placed in opposite phase sequence and there is air gap flux.
 <p>Speed = f1/(p1-p2)</p>
 
 ### Our Team ###
