@@ -8,7 +8,6 @@ import {
 function Footer() {
   return (
     <FooterContainer>
-      
         <SocialMediaWrap>
           <WebsiteRights>Aliferous © 2021</WebsiteRights>
         </SocialMediaWrap>
