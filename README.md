@@ -13,6 +13,18 @@
 <li>p2 = Number poles in machine 2</li>
 </ul>
 <p>We get speed (in radians) as output.</p>
-<h3>Case A</h3>
 
+#### Case A ####
+<p>Speed = f1(1-s1)/p1</p>
+
+#### Case B ####
+<p>Speed = f1/(p1+p2)</p>
+
+#### Case C ####
+<p>Speed = f1/(p1-p2)</p>
+
+### Our Team ###
+1. Aniket Pal
+2. Sayantan Maiti
+3. Dhruv Rajesh Jain
 
