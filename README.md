@@ -4,7 +4,7 @@
 <img src = 'https://github.com/Aniket762/electrical-machines/blob/main/UI.png'>
 
 ## Abstract ##
-<p>This web application is used to calculate the speed of two slip ring induction motors for different types of cascading operation, where the shaft of the motors are coupled with each other.</p>
+<p>This web application is used to calculate the speed of two slip ring induction motors for three different types of cascading operation, where the shaft of the motors are coupled with each other.</p>
 <p>It takes four inputs from the user:</p>
 <ul>
 <li>f1 = Frequency of supply given to machine 1 (Hz)</li>
@@ -14,13 +14,15 @@
 </ul>
 <p>We get speed (in radians) as output.</p>
 
-#### Case A ####
+#### Case A #### : Both machines are placed in same phase sequence and there is no air gap flux.
 <p>Speed = f1(1-s1)/p1</p>
 
-#### Case B ####
+#### Case B #### : Both machines are placed in same phase sequence and there is air gap flux.
 <p>Speed = f1/(p1+p2)</p>
 
-#### Case C ####
+#### Case C #### : Both machines are placed in opposite phase sequence and there is air gap flux.
+
+
 <p>Speed = f1/(p1-p2)</p>
 
 ### Our Team ###
