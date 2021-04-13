@@ -24,7 +24,7 @@
 <p>Speed = f1/(p1-p2)</p>
 
 ### Our Team ###
-1. Aniket Pal
-2. Sayantan Maiti
-3. Dhruv Rajesh Jain
+1. Aniket Pal (119EE0253)
+2. Sayantan Maiti (119EE0247)
+3. Dhruv Rajesh Jain (119EE0628)
 
