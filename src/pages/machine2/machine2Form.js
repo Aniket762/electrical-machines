@@ -3,13 +3,12 @@ import '../machine1/machine1Form.css';
 
 function App() {
   const [f1, setf1] = useState('');
-  const [s1, sets1] = useState('');
   const [p1, setp1] = useState('');
   const [p2, setp2] = useState('');
   const [speed, setSpeed] = useState('');
 
   function formulate() {
-    setSpeed(f1/(p1+p2));
+    setSpeed(120*f1/(p1+p2));
   }
 
   return (
@@ -21,13 +20,6 @@ function App() {
           value={f1}
           onChange={(e) => setf1(+e.target.value)}
           placeholder="f1"
-          className='boxes'
-        />
-        <input
-          type="number"
-          value={s1}
-          onChange={(e) => sets1(+e.target.value)}
-          placeholder="s1"
           className='boxes'
         />
         <input
