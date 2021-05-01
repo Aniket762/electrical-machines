@@ -50,18 +50,13 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/machine-1' onClick={closeMobileMenu}>
+                <NavLinks to='/machine-2' onClick={closeMobileMenu}>
                   Case A
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/machine-2' onClick={closeMobileMenu}>
-                  Case B
-                </NavLinks>
-              </NavItem>
-              <NavItem>
                 <NavLinks to='/machine-3' onClick={closeMobileMenu}>
-                  Case C
+                  Case B
                 </NavLinks>
               </NavItem>
               
