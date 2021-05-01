@@ -21,12 +21,11 @@ function machine() {
           <InfoRow imgStart={true}>
             <InfoColumn>
               <TextWrapper>
-                <Heading lightText={false}>Case B</Heading>
-                <Subtitle lightTextDesc={false}>Both machines are placed in same phase sequence and there is air gap flux.</Subtitle>
+                <Heading lightText={false}>Case A</Heading>
+                <Subtitle lightTextDesc={false}>Torque of both machines are in same direction.</Subtitle>
                 <Subtitle>
                 <ul>
                 <li>f1 = Frequency of supply given to machine 1 (Hz)</li>
-                <li>s1 = Slip of operation of machine 1</li>
                 <li>p1 = Number of poles in machine 1</li>
                 <li>p2 = Number of poles in machine 2</li>
                 </ul>
