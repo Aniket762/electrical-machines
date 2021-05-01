@@ -22,25 +22,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   headline: 'Case A',
   description:
-    "Both machines are placed in same phase sequence and there is no air gap flux.",
-  buttonLabel: 'Find Speed',
-  imgStart: '',
-  img: require('../../images/machine-01.svg'),
-  alt: 'Vault',
-  linkTo:'/machine-1',
-  start: ''
-};
-
-
-export const homeObjFour = {
-  primary: true,
-  lightBg: false,
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
-  headline: 'Case B',
-  description:
-    'Both machines are placed in same phase sequence and there is air gap flux.',
+    'Torque of both machines are in same direction.',
   buttonLabel: 'Find Speed',
   imgStart: 'start',
   img: require('../../images/machine-2.svg'),
@@ -50,14 +32,14 @@ export const homeObjFour = {
 };
 
 export const homeObjThree = {
-  primary: false,
-  lightBg: true,
-  lightTopLine: false,
-  lightText: false,
-  lightTextDesc: false,
-  headline: 'Case C',
+  primary: true,
+  lightBg: false,
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Case B',
   description:
-    "Both machines are placed in opposite phase sequence and there is air gap flux.",
+    "Torque of both machines are in different direction.",
   buttonLabel: 'Find Speed',
   imgStart: '',
   img: require('../../images/machine-3.svg'),
