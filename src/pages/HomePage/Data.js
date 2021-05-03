@@ -6,7 +6,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   headline: 'Analyze the speed of your induction motor',
   description:
-    'Get speed of two slip ring induction motors for different types of cascading operation. f1 = input frequency of voltage to MIM (Main Induction Motor) p1 = number of poles in MIM p2 = number of poles in AIM (Auxiliary Induction Motor) ',
+    'Get speed of two slip ring induction motors for different types of cascading operation where the shaft of the motors are coupled with each other.',
   buttonLabel: 'Get Started',
   imgStart: '',
   img: require('../../images/home-main.svg'),
@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   headline: 'Torque of both machines in same direction',
   description:
-    'The shaft of the motors are coupled with each other.',
+    'While giving the rotor output of first machine the stator of the second, the resultant mmf of the second machine may set up an air-gap flux which rotates in same direction as that of the rotor.',
   buttonLabel: 'Find Speed',
   imgStart: 'start',
   img: require('../../images/machine-2.svg'),
@@ -40,7 +40,7 @@ export const homeObjThree = {
   lightTextDesc: true,
   headline: 'Torque of both machines in different direction',
   description:
-    "Torque of both machines are in different direction.",
+    "While giving the rotor output of first machine the stator of the second, the resultant mmf of the second machine may set up an air-gap flux which rotates in different direction as that of the rotor.",
   buttonLabel: 'Find Speed',
   imgStart: '',
   img: require('../../images/machine-3.svg'),
