@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   headline: 'Torque of both machines in same direction',
   description:
-    'While giving the rotor output of first machine the stator of the second, the resultant mmf of the second machine sets up an air-gap flux which rotates in same direction as that of the rotor.',
+    'While giving the rotor output of first machine to the stator of the second, the resultant mmf of the second machine sets up an air-gap flux which rotates in same direction as that of the rotor.',
   buttonLabel: 'Find Speed',
   imgStart: 'start',
   img: require('../../images/machine-2.svg'),
