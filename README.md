@@ -7,8 +7,8 @@ Speed of two slip ring induction motors for different types of cascading operati
 ## Abstract ##
 <p>This web application is used to calculate the speed of two slip ring induction motors for two different types of cascading operation, where the shaft of the motors are coupled with each other.</p>
 <p>It takes six inputs from the user:</p>
-<p>Machine 1 - MIM (Main Induction Motor)</p>
-<p>Machine 2 - AIM (Auxiliary Induction Motor)</p>
+<p>Machine 1 - MIM (Main Induction Motor)<br>
+   Machine 2 - AIM (Auxiliary Induction Motor)</p>
 <ul>
 <li>f1 = Frequency(Hz) of supply given to machine 1 </li>
 <li>f1 = Frequency(Hz) of supply given to machine 1 </li>
@@ -17,6 +17,8 @@ Speed of two slip ring induction motors for different types of cascading operati
 <li>p1 = Number poles in machine 1</li>
 <li>p2 = Number poles in machine 2</li>
 </ul>
+<p>Machine 1 - MIM (Main Induction Motor)<br>
+   Machine 2 - AIM (Auxiliary Induction Motor)</p>
 <p>We get speed (in radians) as output.</p>
 
 #### Case A : Torque of both machines are in same direction.
